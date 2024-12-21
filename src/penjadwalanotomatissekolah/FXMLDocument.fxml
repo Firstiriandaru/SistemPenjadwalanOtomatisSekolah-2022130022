@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="298.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="penjadwalanotomatissekolah.FXMLDocumentController">
+   <children>
+      <MenuBar layoutX="343.0" layoutY="130.0" prefHeight="39.0" prefWidth="304.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Display Data">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#DataMapelClick" text="Mata Pelajaran" />
+                  <MenuItem mnemonicParsing="false" onAction="#DataMuridClick" text="Murid" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Input Data">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#InputMapelClick" text="Mata Pelajaran" />
+                  <MenuItem mnemonicParsing="false" onAction="#InputMuridClick" text="Murid" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="108.0" layoutY="28.0" text="Sistem Penjadwalan Otomatis Sekolah">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="108.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Logo%20SMA%20SANMAR%203.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

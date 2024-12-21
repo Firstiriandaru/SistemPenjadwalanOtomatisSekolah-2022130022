@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="616.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="penjadwalanotomatissekolah.FXMLDisplayMapelController">
+   <children>
+      <TableView fx:id="tbvmapel" layoutX="141.0" layoutY="152.0" prefHeight="333.0" prefWidth="661.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+      <Label layoutX="173.0" layoutY="46.0" text="Data Mata Pelajaran">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnfirst" layoutX="66.0" layoutY="505.0" mnemonicParsing="false" onAction="#firstclick" text="First" />
+      <Button fx:id="btnprev" layoutX="173.0" layoutY="505.0" mnemonicParsing="false" onAction="#prevclick" text="Prev" />
+      <Button fx:id="btnnext" layoutX="282.0" layoutY="505.0" mnemonicParsing="false" onAction="#nextclick" text="Next" />
+      <Button fx:id="btnlast" layoutX="386.0" layoutY="505.0" mnemonicParsing="false" onAction="#lastclick" text="Last" />
+      <Button fx:id="btninsert" layoutX="576.0" layoutY="566.0" mnemonicParsing="false" onAction="#insertclick" text="Insert" />
+      <Button fx:id="btndelete" layoutX="858.0" layoutY="566.0" mnemonicParsing="false" onAction="#deleteclick" text="Delete" />
+      <Button fx:id="btnupdate" layoutX="717.0" layoutY="566.0" mnemonicParsing="false" onAction="#updateclick" text="Update" />
+      <Button fx:id="btnexit" layoutX="879.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitclick" text="X" />
+      <ImageView fitHeight="98.0" fitWidth="116.0" layoutX="40.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Logo%20SMA%20SANMAR%203.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

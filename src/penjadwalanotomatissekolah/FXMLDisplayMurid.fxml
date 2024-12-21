@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="616.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="penjadwalanotomatissekolah.FXMLDisplayMuridController">
+   <children>
+      <TableView fx:id="tbvmurid" layoutX="14.0" layoutY="140.0" onMouseClicked="#tabletclick" prefHeight="333.0" prefWidth="514.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Label layoutX="158.0" layoutY="41.0" text="Data Murid">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnfirst" layoutX="57.0" layoutY="502.0" mnemonicParsing="false" onAction="#firstclick" text="First" />
+      <Button fx:id="btnprev" layoutX="164.0" layoutY="502.0" mnemonicParsing="false" onAction="#prevclick" text="Prev" />
+      <Button fx:id="btnnext" layoutX="273.0" layoutY="502.0" mnemonicParsing="false" onAction="#nextclick" text="Next" />
+      <Button fx:id="btnlast" layoutX="377.0" layoutY="502.0" mnemonicParsing="false" onAction="#lastclick" text="Last" />
+      <Button fx:id="btninsert" layoutX="566.0" layoutY="556.0" mnemonicParsing="false" onAction="#insertclick" text="Insert" />
+      <Button fx:id="btndelete" layoutX="848.0" layoutY="556.0" mnemonicParsing="false" onAction="#deleteclick" text="Delete" />
+      <Button fx:id="btnupdate" layoutX="707.0" layoutY="556.0" mnemonicParsing="false" onAction="#updateclick" text="Update" />
+      <Button fx:id="btnexit" layoutX="907.0" layoutY="21.0" mnemonicParsing="false" onAction="#exitclick" text="X" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="344.0" layoutX="538.0" layoutY="139.0" stroke="BLACK" strokeType="INSIDE" width="389.0" />
+      <ImageView fx:id="fotoMurid" fitHeight="312.0" fitWidth="307.0" layoutX="579.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="687.0" layoutY="95.0" text="Photo">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="98.0" fitWidth="116.0" layoutX="30.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Logo%20SMA%20SANMAR%203.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
